@@ -1,0 +1,95 @@
+/* OVERALL APP BACKGROUND */
+.stApp {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    color: #ffffff;
+}
+
+/* THE GLASS CARD */
+.main-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    padding: 3rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+}
+
+/* TYPOGRAPHY */
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+}
+
+/* FORM LABELS */
+.stWidgetLabel p {
+    color: #00c6ff !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* TEXT AREA & DROPDOWNS */
+textarea, div[data-baseweb="select"] {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: #1e293b !important;
+    border-radius: 12px !important;
+}
+
+/* ACTION BUTTON */
+.stButton>button {
+    width: 100%;
+    background: linear-gradient(90deg, #00c6ff, #0072ff) !important;
+    color: white !important;
+    border: none !important;
+    padding: 12px !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 198, 255, 0.4);
+}
+
+.stButton>button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 198, 255, 0.6);
+}
+
+/* RESULT SECTION */
+.result-label {
+    margin-top: 2rem;
+    color: #fdbb2d;
+    font-weight: bold;
+}
+
+.result-box {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 6px solid #00c6ff;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.8rem;
+}
